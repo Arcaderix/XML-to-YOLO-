@@ -75,9 +75,11 @@ Converts all XML files in the input folder to YOLO format, resizes the images, a
 Make sure to correctly configure the paths for the XML files and images, as well as the output folder. For example:
 
 ```python
-xml_folder = "C:/Users/ARCA/Downloads/death.v1i.yolokeras/train"  # Folder with your XML files
-image_folder = "C:/Users/ARCA/Downloads/death.v1i.yolokeras/train"  # Folder with your images
-output_folder = "C:/Users/ARCA/Downloads/New folder"  # Folder where the .txt files and resized images will be saved
+# Example paths (update with your actual paths)
+xml_folder = "path/to/your/xml/folder"  # Folder with your XML files
+image_folder = "path/to/your/image/folder"  # Folder with your images
+output_folder = "path/to/your/output/folder"  # Folder where the .txt files and resized images will be saved
+
 ```
 
 ### Step 2: Run the script
